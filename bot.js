@@ -24,7 +24,7 @@ client.on('message', message => {
   if (message.content.startsWith(prefix + 'setl')) {
   client.user.setActivity(argresult, {type: 'LISTENING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`LISTENING Now: **${argresult}`)
+    message.channel.sendMessage(`-:white_check_mark:-`)
 } 
 
 
@@ -42,12 +42,12 @@ if (message.content.startsWith(prefix + 'setavatar')) {
 if (message.content.startsWith(prefix + 'sets')) {
   client.user.setGame(argresult, "https://www.twitch.tv/peery13");
      console.log('test' + argresult);
-    message.channel.sendMessage(`OK BRO`)
+    message.channel.sendMessage(`-:white_check_mark:-`)
 } 
 if (message.content.startsWith(prefix + 'setg')) {
   client.user.setGame(argresult);
      console.log('test' + argresult);
-    message.channel.sendMessage(`Playing: **${argresult}`)
+    message.channel.sendMessage(`-:white_check_mark:-`)
 } 
 
 
